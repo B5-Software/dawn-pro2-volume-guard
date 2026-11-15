@@ -1,0 +1,17 @@
+# Do NOT commit firmware binaries or proprietary blobs
+*.bin
+*.hex
+*.dfu
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.log
